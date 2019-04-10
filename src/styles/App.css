@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -25,4 +25,25 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+} */
+
+.CharactersList_wrapper {
+  text-align: center;
+}
+
+ul li{
+  list-style: none;
+}
+
+.character-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.character {
+  border: 1px red solid;
+  margin: 15px;
+  min-width: 300px;
+  max-height: 300px;
 }
